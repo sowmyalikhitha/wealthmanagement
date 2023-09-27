@@ -1,0 +1,49 @@
+.container{
+    margin-bottom: 100px;
+}
+.container h2{
+    margin-top: -10px;
+    color: #505050;
+    padding-left: 27px;
+    padding-bottom: 9px; ;
+}
+label{
+    color: #483699;
+    padding-left: 27px;
+    font-family: sans-serif;
+    size: 16px;
+}
+input{
+    outline:none;
+    margin-left: 27px;
+    background-color: #f2edfe;
+    border: none;
+    padding-right: 90px;
+    border-bottom: 1px solid #666666;
+}
+a:link{
+    text-decoration: none;
+    color: #483699;
+}
+.forgetpassword{
+    padding-left: 27px;
+}
+.log_button{
+
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #684EDC;
+    margin: 38px 45px 13px 44px;
+    width: 323px;
+    height: 38px;
+    font-size: 16px;
+}
+.signup{
+    text-align: center;
+}
+.bimage{
+    width: 412px;
+    height: 380px;
+}
+

@@ -1,0 +1,100 @@
+.body{
+    margin-left: 450px;
+    background-image: linear-gradient(#f9f7ff,#f4f1fe,#f2edfe);
+    width: 412px;
+    height: 892px;
+}
+.container1{
+    display: inline-flex;
+ }
+ .container1 img{
+    margin: 17px 18.9px 104px 160.8px;
+}
+.container1 p{
+    font-size: 16px;
+    width: 118px;
+    height: 21px;
+    margin-top: 14px;
+    margin-left: 16px;
+    color:#674edd;
+}
+.wifi{
+    text-align:right;
+    width: 101.23px;
+    height: 18px;
+}
+.bgimage{
+    width: 412px;
+    height: 390px;
+}
+
+.login_button{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #684EDC;
+    margin: 120px 45px 29px 44px;
+    width: 323px;
+    height: 38px;
+    font-size: 16px;
+}
+
+.signup_button{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #B0B0BB;
+    margin: 0px 43px 119px 46px;
+    width: 323px;
+    height: 38px;
+    font-weight: bold;
+}
+
+
+
+.login-app-container{
+   display: none;
+}
+
+/* @media (min-width: 412px) and (max-width:892px){
+    .login-app-container{
+        display: block;
+        
+    }
+
+    .img-path{
+        position: absolute;
+        z-index: -1;
+        top: 80px;
+        left: 25px;
+    }
+
+    .img-money{
+        position: absolute;
+        top: 55px;
+        right: 0;
+        width: 25%;
+    }
+
+    .img-bank{
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        width: 30%;
+    }
+
+    .img-note{
+        position: absolute;
+        top: 300px;
+        width: 20%;
+        left: 90px;
+    }
+
+    .img-line{
+        position: absolute;
+        top: 56px;
+        left: 123px;
+        width: 47%;
+    }
+
+} */
