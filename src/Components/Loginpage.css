@@ -13,7 +13,7 @@ label{
     font-family: sans-serif;
     size: 16px;
 }
-input{
+.formelements input{
     outline:none;
     margin-left: 27px;
     background-color: #f2edfe;
