@@ -12,7 +12,7 @@ class Loginpage extends Component {
                     <img className="wifi" src={wifi} alt="wifi"></img>
                 </div>
                 <div>
-                <img className="bimage" src={image} alt="image"></img> 
+                <img className="bimage" src={image} alt="bimage"></img> 
                 </div>
                 <div className="container">
                     <h2>Log-in</h2>

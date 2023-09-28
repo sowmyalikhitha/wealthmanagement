@@ -18,7 +18,7 @@ function Forgotpassword(){
             <img className="wifi" src={wifi} alt="wifi"></img>
         </div>
         <div>
-        <img className="bgimage" src={image} alt="image"></img> 
+        <img className="bgimage" src={image} alt="bgimage"></img> 
         </div>
         <h1>Forgot password</h1>
         <form className="formelements">

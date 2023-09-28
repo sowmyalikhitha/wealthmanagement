@@ -1,3 +1,21 @@
-input{
+.formelement form{
     margin-left: 27px;
+}
+.formelement input{
+    margin-right: 10px;
+    width: 26px;
+    height:30px;
+    margin-top: 9px;
+    border-radius: 9px;
+    border:1.5px solid #AF8AF7 ;
+}
+.verify_button{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #684EDC;
+    margin: 120px 45px 13px 44px;
+    width: 323px;
+    height: 38px;
+    font-size: 16px;
 }

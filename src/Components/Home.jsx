@@ -17,7 +17,7 @@ function Home(){
                     <img className="wifi" src={wifi} alt="wifi"></img>
                 </div>
                 <div>
-                <img className="bgimage" src={image} alt="image"></img> 
+                <img className="bgimage" src={image} alt="bgimage"></img> 
                 </div>
                 <div>
                 <button className='login_button' onClick={handleClick}>Log In</button> 

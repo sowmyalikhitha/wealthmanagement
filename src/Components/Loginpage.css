@@ -7,7 +7,7 @@
     padding-left: 27px;
     padding-bottom: 9px; ;
 }
-label{
+.formelements label{
     color: #483699;
     padding-left: 27px;
     font-family: sans-serif;
@@ -19,6 +19,7 @@ label{
     background-color: #f2edfe;
     border: none;
     padding-right: 90px;
+    padding-top: 20px;
     border-bottom: 1px solid #666666;
 }
 a:link{
@@ -29,7 +30,6 @@ a:link{
     padding-left: 27px;
 }
 .log_button{
-
     border-radius: 20px;
     border: none;
     color: white;
