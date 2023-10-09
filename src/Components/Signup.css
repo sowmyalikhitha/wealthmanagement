@@ -1,0 +1,56 @@
+h4{
+    color:#483699;
+    padding-left:27px;
+    margin-top: -33px;
+}
+
+.h1{
+    margin-top: 40px;
+}
+
+.getstarted{
+    background-color:#B0B0B0;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    width: 139px;
+    height: 38px;
+    margin-left: 257px;
+    margin-top: 47px;
+}
+
+.progressbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 27px;
+    padding-right: 27px;
+    counter-reset: step;
+}
+
+
+.progressbar::before{
+    content:"";
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 80%;
+    background-color: grey;
+    z-index: -1;
+}
+
+.progress-step{
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-step::before{
+    counter-increment: step;
+    content: counter(step);
+}

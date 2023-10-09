@@ -10,6 +10,10 @@ function Home(){
     function handleClick(){
         navigate("/loginpage")
     }
+
+    function handlesignup(){
+        navigate("/signup")
+    }
         return (
             <div className="body">
                 <div className="container1">
@@ -23,7 +27,7 @@ function Home(){
                 <button className='login_button' onClick={handleClick}>Log In</button> 
                 </div>
                 <div>
-                <button className='signup_button'>Sign Up</button> 
+                <button className='signup_button' onClick={handlesignup}>Sign Up</button> 
                 </div>
         </div>
     );

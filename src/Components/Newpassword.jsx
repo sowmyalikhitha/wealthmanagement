@@ -17,7 +17,7 @@ function Newpassword(){
                     <label>New password</label><br />
                     <input type="text" id="newpassword" name="newpassword" ></input><br/><br/>
                 </form>
-                <button className="verify_button">Proceed</button>
+                <button className="verify_button" >Proceed</button>
         </div>
     );
     
